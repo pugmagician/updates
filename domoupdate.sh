@@ -28,6 +28,6 @@ chmod 755 Domocoin-cli
 mv -f Domocoind ./../usr/local/bin
 mv -f Domocoin-cli ./../usr/local/bin
 rm -rf domoupdate.zip
-Domocoind -daemon
+Domocoind -reindex
 echo -e ${GREEN}"You're wallet is now updated, you may need to restart the masternode from the Windows/MAC side now."${NC}
 fi
