@@ -21,7 +21,7 @@ read AGREE
 if [[ $AGREE =~ "y" ]] ; then
 sudo apt install -y unzip
 Domocoin-cli stop
-wget https://github.com/pugmagician/updates/domoupdate.zip
+wget https://github.com/pugmagician/updates/blob/master/domoupdate.zip?raw=true
 unzip -o domoupdate.zip
 mv -f Domocoind ./../usr/local/bin
 mv -f Domocoin-cli ./../usr/local/bin
